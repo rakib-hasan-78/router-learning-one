@@ -1,0 +1,60 @@
+{
+    "gymOptions": [
+      {
+        "id": 1,
+        "name": "Basic Plan",
+        "pricePerMonth": 30,
+        "features": [
+          "Access to gym equipment",
+          "Locker room access",
+          "Free water refill station"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Standard Plan",
+        "pricePerMonth": 50,
+        "features": [
+          "Everything in Basic Plan",
+          "Access to all group classes (Yoga, Zumba, HIIT)",
+          "1 Personal training session/month",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Premium Plan",
+        "pricePerMonth": 75,
+        "features": [
+          "Everything in Standard Plan",
+          "Unlimited personal training",
+          "Sauna and steam room access",
+          "Diet consultation",
+          "Priority support"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Student Plan",
+        "pricePerMonth": 25,
+        "features": [
+          "Access to gym equipment",
+          "Locker room access",
+          "Valid student ID required",
+          "Weekday access only (6 AM - 5 PM)"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Family Plan",
+        "pricePerMonth": 120,
+        "features": [
+          "Access for 2 adults + 2 children",
+          "Everything in Premium Plan",
+          "Kids fitness programs",
+          "Family locker room"
+        ]
+      }
+    ]
+  }
+  
