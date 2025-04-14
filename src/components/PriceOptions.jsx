@@ -12,7 +12,7 @@ const PriceOptions = () => {
     return (
         <div className='p-5'>
             <h1 className='uppercase text-center py-10 text-5xl'>bigshow price in town</h1>
-            <div className='grid grid-cols-3 gap-3 w-full'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-3 w-full'>
                 {
                     priceOptions.map(option=>{
                         return <Price key={option.id} option={option} />
