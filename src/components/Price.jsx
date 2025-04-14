@@ -11,8 +11,8 @@ const Price = ({option}) => {
             </h3>
             <h4 className='text-3xl text-center mb-3'>{name}</h4>
             {
-                features.map(feature=>{
-                    return <Feature feature={feature} />
+                features.map((feature, index)=>{
+                    return <Feature key={index + 1} feature={feature} />
                 })
             }
             <button
